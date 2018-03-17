@@ -2,27 +2,28 @@
 
 <html>
     <head>
+      <link type="text/css" rel="stylesheet" href="reset.css" />
+      <link type="text/css" rel="stylesheet" href="styles.css" />
       <title>Jeffrey Ricker, writer</title>
 
     </head>
 
     <body>
       <header>
-        <h1>My Writing</h1>
-        
-        <ul>
-          <li>Short Stories</li>
-          <li>Novels</li>
-            <ul>
-              <li><a href="#detours">Detours</a></li>
-              <li><a href="#unwanted">The Unwanted</a></li>
-              <li>In progress: Harvest</li>
-            </ul>
-        </ul>
+              <div class="nav">Short Stories</div>
+              <div class="nav">Novels</div>
+                  <div class="nav-content">
+                  <ul>
+                    <li><a href="#detours">Detours</a></li>
+                    <li><a href="#unwanted">The Unwanted</a></li>
+                    <li>In progress: Harvest</li>
+                  </ul>
+                </div>
       </header>
 
       <main>
-        <article>
+            <h1>My Writing</h1>
+            <article>
           <section>
             <h2>Short Stories</h2>
             <p>I've written and published over two dozen stories. Here are some of them:</p>
@@ -60,11 +61,11 @@
 
           <section>
             <h2>Novels</h2>
-            <img src="images/Detours.jpg" style="padding-right: 10px; width: 25%; float: left;"/><br />
+            <img class="bookcover" src="images/Detours.jpg" /><br />
             <a name="detours"></a><h3>Detours</h3>
             <p>My first novel came out in 2011.</p>
-            <hr style="clear: both;" />
-            <img src="images/TheUnwanted.jpg" style="padding-right: 10px; width: 25%; float: left; clear: left"/><br />
+            <hr />
+            <img class="bookcover" src="images/TheUnwanted.jpg" /><br />
             <a name="unwanted"></a><h3>The Unwanted</h3>
             <p>My second novel was a young adult fantasy that was published in 2014.</p>
           </section>
