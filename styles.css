@@ -62,6 +62,14 @@ h4 {
 
 }
 
+/* image classes and IDs */
+
+#bio {
+    float: right;
+    padding-right: 10px;
+    max-width: 150px;
+}
+
 .bookcover-left {
     float: left;
     padding-right: 10px;
