@@ -62,10 +62,15 @@ h4 {
 
 }
 
-.bookcover {
+.bookcover-left {
     float: left;
     padding-right: 10px;
-    width: 25%;   
+    max-width: 221px;   
+}
+.bookcover-right {
+    float: right;
+    padding-right: 10px;
+    max-width: 221px;   
 }
 
 /* List styles */
